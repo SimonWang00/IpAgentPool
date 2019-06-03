@@ -1,0 +1,10 @@
+# IpAgentPool
+IP代理程序 部署
+1、在config中修改相应的redis
+2、安装依赖包
+    pip install -r requirements.txt
+3、启动项目：
+    cd control_pool
+    nohup python control_redis_ippool.py &
+4、检查是否启动
+ps -ax | grep python
