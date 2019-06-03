@@ -11,6 +11,8 @@
 @Time: 2019/6/3 10:38
 @Desc: define your website http://www.***.com
 '''
+import sys
+sys.path.append('..')
 import time
 import asyncio
 import datetime
